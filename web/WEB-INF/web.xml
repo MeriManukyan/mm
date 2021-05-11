@@ -1,0 +1,46 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>userListServlet</servlet-name>
+        <servlet-class>userList</servlet-class>
+        <jsp-file>/userlist.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>userListServlet</servlet-name>
+        <url-pattern>/userList</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>personServlet</servlet-name>
+        <servlet-class>addPerson</servlet-class>
+        <jsp-file>/addUser.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>personServlet</servlet-name>
+        <url-pattern>/addPerson</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>carServlet</servlet-name>
+        <servlet-class>addCar</servlet-class>
+        <jsp-file>/addCar.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>carServlet</servlet-name>
+        <url-pattern>/addCar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>personCarServlet</servlet-name>
+        <servlet-class>personCar</servlet-class>
+        <jsp-file>/personCars.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>personCarServlet</servlet-name>
+        <url-pattern>/personCar</url-pattern>
+    </servlet-mapping>
+</web-app>

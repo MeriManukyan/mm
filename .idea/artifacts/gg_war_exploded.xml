@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gg:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/gg_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gg/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gg" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.microsoft.sqlserver:mssql-jdbc:6.2.1.jre7" />
+        </element>
+      </element>
+      <element id="library" level="project" name="com.sun.faces:jsf-api:2.0.6" />
+    </root>
+  </artifact>
+</component>
